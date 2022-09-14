@@ -1,0 +1,36 @@
+/* Ajuste y posición del botón */
+.whatsapp-fixed img{
+    vertical-align: top;
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 23px;
+    animation-name: animWhatsapp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 40;
+  }
+  .darkmode-fixed i {
+    font-size: 50px;
+    vertical-align: top;
+    width: 35px;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 23px;
+    z-index: 40;
+  }
+  
+  /* Animación del botón */
+  @keyframes animWhatsapp{
+    0% {
+      transform: scale(1, 1) rotate(0deg);
+    }
+    50% {
+      transform: scale(0.85, 0.85) rotate(5deg);
+    }
+  }
+  
