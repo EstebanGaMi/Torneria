@@ -497,7 +497,52 @@ footer p {
 .contact-info p {
     margin-top: 10px
 }
+.field{
+    display: flex   ;
+    max-width: 50%;
+    flex-direction: column;
+    margin: 5px;
 
+}
+label{
+    color: white;
+    margin: 5px;
+}
+input{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.559);
+    border-radius: 5px;
+    border-color: cornflowerblue;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+}
+.fields{
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.actions{
+    display: flex;
+    background-color: rgba(135, 135, 135, 0.72);
+    align-items: center;
+    margin: 15px;
+    position: relative;
+    top: 0px;
+    right: -400px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.actions a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .profile {
     padding: 70px 100px;
     background: linear-gradient(-45deg, #aaaaaac1, #3333339d);
@@ -725,6 +770,51 @@ footer p {
 
 
 @media screen and (max-width:540px) {
+    .field{
+        display: flex   ;
+        max-width: 50%;
+        flex-direction: column;
+        margin: 0;
+    
+    }
+    label{
+        color: white;
+        margin: 0;
+    }
+    input{
+        width: 200px;
+    }
+    textarea{
+        width: 200px;
+        height: 100px;
+    }
+    .fields{
+        position: relative;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .actions{
+        align-items: center;
+        background-color: rgba(135, 135, 135, 0.72);
+        display: flex;
+        margin: 15px;
+        position: relative;
+        top: 0px;
+        right: -143px;
+        text-align: center;
+        justify-content: center;
+        width: 100px;
+        height: 50px;
+        border: solid red 2px;
+        border-radius: 10px;
+    }
+    .actions a, .actions li {
+        text-decoration: none;
+        color: whitesmoke;
+    }
     .nav-link1 a{
         position: relative;
         right: -300px;
