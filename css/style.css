@@ -189,7 +189,7 @@ main {
     padding: 10px 15px;
     position: relative;
     top: -50px;
-    right: -999px;
+    right: -1129px;
 }
 .nav-link a {
     color: #fff;
@@ -725,6 +725,11 @@ footer p {
 
 
 @media screen and (max-width:540px) {
+    .nav-link1 a{
+        position: relative;
+        right: -300px;
+        top: 20px;
+    }
     .banner{
         display: none;
     }
